@@ -47,7 +47,7 @@ And With Two Types of Quesitions:
 
 ---
 
-# Web App Screenshot
+# App's Screenshot
 
 <div >
   <div style="display: flex;  justify-content: space-evenly; align-items: center;">

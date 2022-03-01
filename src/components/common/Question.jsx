@@ -83,7 +83,7 @@ function Question({ queue, checkAnswer, currentAns, currentQ }) {
 
   return (
     <QuestionStyle>
-      <h3>{`${title.toString()}`}</h3>
+      <h3>{`${title.toString().replace("&qoute;", `"`)}`}</h3>
       <ul>
         {answers.map((ans) => (
           <li
@@ -95,7 +95,7 @@ function Question({ queue, checkAnswer, currentAns, currentQ }) {
               checkAnswer(ans, cAnswer, title);
             }}
           >
-            {`${ans.toString()}`}
+            {`${ans.toString().replace("&qoute;", `"`)}`}
           </li>
         ))}
       </ul>

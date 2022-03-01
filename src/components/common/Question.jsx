@@ -83,7 +83,7 @@ function Question({ queue, checkAnswer, currentAns, currentQ }) {
 
   return (
     <QuestionStyle>
-      <h3>{title}</h3>
+      <h3>{`${title.toString()}`}</h3>
       <ul>
         {answers.map((ans) => (
           <li
@@ -95,7 +95,7 @@ function Question({ queue, checkAnswer, currentAns, currentQ }) {
               checkAnswer(ans, cAnswer, title);
             }}
           >
-            {ans}
+            {`${ans.toString()}`}
           </li>
         ))}
       </ul>

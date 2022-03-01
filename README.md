@@ -51,11 +51,11 @@ And With Two Types of Quesitions:
 
 <div >
   <div style="display: flex;  justify-content: space-evenly; align-items: center;">
-    <img src="./app-screenshots/1.png" style="width: 500px;"/>
-    <img src="./app-screenshots/2.png" style="width: 500px;"/>
+    <img src="./app-screenshots/1.png" style="width: 400px;"/>
+    <img src="./app-screenshots/2.png" style="width: 400px;"/>
   </div>
   <div style="display: flex;  justify-content: space-evenly; align-items: center;">
-    <img src="./app-screenshots/3.png" style="width: 500px;"/>
-    <img src="./app-screenshots/4.png" style="width: 500px;"/>
+    <img src="./app-screenshots/3.png" style="width: 400px;"/>
+    <img src="./app-screenshots/4.png" style="width: 400px;"/>
   </div>
 </div>

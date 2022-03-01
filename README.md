@@ -28,7 +28,7 @@ And With Two Types of Quesitions:
 
 # Languages & Technologies
 
-### Lauages That used in this Web App:
+### Languages That used in this Web App:
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
   <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://img.icons8.com/color/48/000000/html-5--v1.png" alt="drawing" width="48" height="48"/></a>

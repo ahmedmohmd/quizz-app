@@ -10,7 +10,7 @@ const QuestionsStyle = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 35px;
+  gap: 20px;
   padding: 50px 0;
   height: 100vh;
   width: 100%;

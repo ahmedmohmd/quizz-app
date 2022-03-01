@@ -67,7 +67,9 @@ function Customize({ onConfig }) {
       <Container className="c d-flex justify-content-center align-items-center ">
         <Form onSubmit={submitHandler} className="form">
           <Form.Group className="mb-3">
-            <Form.Label>Select Category</Form.Label>
+            <Form.Label className="badge bg-warning">
+              Select Category
+            </Form.Label>
             <Form.Select
               onChange={(e) => setData({ ...data, category: e.target.value })}
             >
@@ -78,7 +80,9 @@ function Customize({ onConfig }) {
             </Form.Select>
           </Form.Group>
           <Form.Group className="mb-3">
-            <Form.Label>Select Difficulty</Form.Label>
+            <Form.Label className="badge bg-warning">
+              Select Difficulty
+            </Form.Label>
             <Form.Select
               onChange={(e) => setData({ ...data, difficulty: e.target.value })}
             >
@@ -88,7 +92,7 @@ function Customize({ onConfig }) {
             </Form.Select>
           </Form.Group>
           <Form.Group className="mb-3">
-            <Form.Label>Select Type</Form.Label>
+            <Form.Label className="badge bg-warning">Select Type</Form.Label>
             <Form.Select
               onChange={(e) => setData({ ...data, type: e.target.value })}
             >
@@ -97,7 +101,7 @@ function Customize({ onConfig }) {
             </Form.Select>
           </Form.Group>
           <Form.Group className="mb-3" controlId="qs-number">
-            <Form.Label>Select Amount</Form.Label>
+            <Form.Label className="badge bg-warning">Select Amount</Form.Label>
             <Form.Control
               type="number"
               value={data.amount}

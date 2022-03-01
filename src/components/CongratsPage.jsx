@@ -85,7 +85,7 @@ function CongratsPage({ cAnswers, incAnswers }) {
                   onClick={() => navigate("/customize")}
                   className="retake"
                 >
-                  Reatake
+                  Retake
                 </button>
                 <button onClick={() => navigate("/")} className="home">
                   Home

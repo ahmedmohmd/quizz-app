@@ -1,12 +1,12 @@
 # TO DO App
 
-By this **To Do** You can add your todos and edit it.
+By this **Quizz App** You can Test your Self in a lot off categories of questions like Computers, Video Games, Books and General Knowladge.
 
 ---
 
 # Discreption
 
-This is a [**To Do**](https://to-do-app-ashy.vercel.app/) web app that show you Your Region Informations:
+This is a [**Quizz App**](https://quizz-app-eta.vercel.app/) web app that show you Your Region Informations:
 
 - Weather State
 - Exact Tempreture

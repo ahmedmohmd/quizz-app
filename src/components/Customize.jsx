@@ -96,7 +96,7 @@ function Customize({ onConfig }) {
             <Form.Select
               onChange={(e) => setData({ ...data, type: e.target.value })}
             >
-              <option value={"multiple"}>{"MSQ"}</option>
+              <option value={"multiple"}>{"MCQ"}</option>
               <option value={"boolean"}>{"True / False"}</option>
             </Form.Select>
           </Form.Group>

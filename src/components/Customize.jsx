@@ -105,7 +105,13 @@ function Customize({ onConfig }) {
             <Form.Control
               type="number"
               value={data.amount}
-              onChange={(e) => setData({ ...data, amount: +e.target.value })}
+              onChange={(e) => {
+                if (+e.target.value > 0) {
+                  setData({ ...data, amount: +e.target.value });
+                } else {
+                  setData({ ...data, amount: 0 });
+                }
+              }}
             ></Form.Control>
           </Form.Group>
           <Button variant="primary" type="submit" className="mt-5">

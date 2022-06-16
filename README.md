@@ -1,3 +1,5 @@
+# Shortly Website
+
 By this **Quizz App** You can Test your Self in a lot off categories of questions like Computers, Video Games, Books and General Knowladge.
 
 ---
@@ -41,9 +43,18 @@ And With Two Types of Quesitions:
 <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
   <a href="https://reactjs.org/"><img src="https://cdn-icons-png.flaticon.com/512/3334/3334886.png" alt="drawing" width="48" height="48"/></a>
   <a href="https://getbootstrap.com/"><img src="https://img.icons8.com/color/48/000000/bootstrap.png" width="48" height="48"/></a>
-  <a href="https://styled-components.com/"><img src="https://cdn.iconscout.com/icon/premium/png-64-thumb/nail-polish-73-761221.png" width="48" height="48"/></a>
-  <a href="https://reactrouter.com/"><img src="https://static-00.iconduck.com/assets.00/react-router-icon-512x279-zswz065s.png" width="48" height="48"/></a>
+
 </div>
+
+---
+
+### Other Libs & Packages:
+
+- [**Axios**](https://www.axios.com/)
+- [**React Icons**](https://react-icons.github.io/react-icons/)
+- [**Styled Components**](https://styled-components.com/)
+- [**Lodash**](https://www.npmjs.com/package/lodash)
+- [**React Router**](https://reactrouter.com/)
 
 ---
 

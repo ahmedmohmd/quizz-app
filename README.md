@@ -1,4 +1,4 @@
-# Shortly Website
+# Quizz App
 
 By this **Quizz App** You can Test your Self in a lot off categories of questions like Computers, Video Games, Books and General Knowladge.
 
@@ -38,7 +38,7 @@ And With Two Types of Quesitions:
   <a href="https://www.javascript.com/"><img src="https://img.icons8.com/color/48/000000/javascript--v2.png" width="48" height="48"/></a>
 </div>
 
-### Technolohies that used in this App:
+### Frameworks & Technologies that used in this App:
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
   <a href="https://reactjs.org/"><img src="https://cdn-icons-png.flaticon.com/512/3334/3334886.png" alt="drawing" width="48" height="48"/></a>

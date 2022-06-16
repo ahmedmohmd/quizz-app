@@ -1,5 +1,7 @@
+//* Imports
 import styled from "styled-components";
 
+//* Quesion Style
 const QuestionStyle = styled.div`
   color: #fff;
   counter-reset: answer 0;
@@ -74,6 +76,7 @@ const QuestionStyle = styled.div`
   }
 `;
 
+//* Question JSX
 function Question({ queue, checkAnswer, currentAns, currentQ }) {
   if (!queue) {
     return <h2 style={{ color: "#fff" }}>Wait untill Question Loading...</h2>;

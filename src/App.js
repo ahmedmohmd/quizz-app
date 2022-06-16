@@ -1,3 +1,4 @@
+//* Imports
 import _ from "lodash";
 import axios from "axios";
 import { Routes, Route } from "react-router-dom";
@@ -7,6 +8,7 @@ import Customize from "./components/Customize";
 import Questions from "./components/Questions";
 import NotFound from "./components/NotFound";
 
+//* App JSX
 function App() {
   const [configs, setConfigs] = useState({});
   const [questions, setQuestions] = useState([]);

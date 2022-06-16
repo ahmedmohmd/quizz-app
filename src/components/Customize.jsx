@@ -1,9 +1,11 @@
+//* Imports
 import { Button, Container, Form } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import React, { useState } from "react";
 import { useLayoutEffect } from "react";
 import styled from "styled-components";
 
+//* Customize STyle
 const CustomizeStyle = styled.div`
   height: 100vh;
 
@@ -48,6 +50,7 @@ const CustomizeStyle = styled.div`
   }
 `;
 
+//* Customize JSX
 function Customize({ onConfig }) {
   const navigate = useNavigate();
   const [data, setData] = useState({

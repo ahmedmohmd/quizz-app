@@ -1,3 +1,4 @@
+//* Imports
 import styled from "styled-components";
 import { FaPlay } from "react-icons/fa";
 import { Container } from "react-bootstrap";
@@ -5,6 +6,7 @@ import React, { useState, useLayoutEffect } from "react";
 import Question from "./common/Question";
 import CongratsPage from "./CongratsPage";
 
+//* Questions Style
 const QuestionsStyle = styled.div`
   display: flex;
   flex-direction: column;
@@ -51,6 +53,7 @@ const QuestionsStyle = styled.div`
   }
 `;
 
+//* Questions JSX
 function Questions({ qs }) {
   const [count, setCount] = useState(0);
   const [correctAns, setCorrectAns] = useState("");

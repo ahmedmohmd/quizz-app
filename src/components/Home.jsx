@@ -1,7 +1,10 @@
+//* Imports
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 import { FaPlay } from "react-icons/fa";
+
+//* Home Style
 const HomeStyle = styled.div`
   width: 100vw;
   height: 100vh;
@@ -51,6 +54,7 @@ const HomeStyle = styled.div`
   }
 `;
 
+//* Home JSX
 function Home() {
   const router = useNavigate();
   return (

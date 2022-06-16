@@ -1,7 +1,9 @@
+//* Imports
 import React from "react";
 import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
 
+//* NotFound Style
 const NotFoundStyle = styled.div`
   width: 100vw;
   height: 100vh;
@@ -31,6 +33,7 @@ const NotFoundStyle = styled.div`
   }
 `;
 
+//* NotFound JSX
 function NotFound() {
   const navigate = useNavigate();
 

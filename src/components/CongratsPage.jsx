@@ -1,8 +1,10 @@
+//* Imports
 import React from "react";
 import { Badge, Col, Container, Row } from "react-bootstrap";
 import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
 
+//* Congrats STyle
 const CongratsPageStyle = styled.div`
   height: 100vh;
 
@@ -60,6 +62,7 @@ const CongratsPageStyle = styled.div`
   }
 `;
 
+//* Congrats JSX
 function CongratsPage({ cAnswers, incAnswers }) {
   const navigate = useNavigate();
 
